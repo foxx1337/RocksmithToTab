@@ -10,18 +10,18 @@ namespace RocksmithToTabLib
     public class GP5File
     {
         private const string FILE_VERSION = "FICHIER GUITAR PRO v5.00";
- 	    private static readonly string[] PAGE_SETUP_LINES = {
-		    "%TITLE%",
-		    "%SUBTITLE%",
-		    "%ARTIST%",
-		    "%ALBUM%",
-		    "Words by %WORDS%",
-		    "Music by %MUSIC%",
-		    "Words & Music by %WORDSMUSIC%",
-		    "Copyright %COPYRIGHT%",
-		    "All Rights Reserved - International Copyright Secured",
-		    "Page %N%/%P%",
-    	};
+        private static readonly string[] PAGE_SETUP_LINES = {
+            "%TITLE%",
+            "%SUBTITLE%",
+            "%ARTIST%",
+            "%ALBUM%",
+            "Words by %WORDS%",
+            "Music by %MUSIC%",
+            "Words & Music by %WORDSMUSIC%",
+            "Copyright %COPYRIGHT%",
+            "All Rights Reserved - International Copyright Secured",
+            "Page %N%/%P%",
+        };
 
 
         private BinaryWriter writer = null;
